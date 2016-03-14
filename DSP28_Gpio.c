@@ -18,7 +18,9 @@ void InitGpio(void)
      GpioMuxRegs.GPAMUX.bit.PWM4_GPIOA3=1;     
 
      GpioMuxRegs.GPAMUX.bit.PWM5_GPIOA4=1;     
-     GpioMuxRegs.GPAMUX.bit.PWM6_GPIOA5=1;     
+     GpioMuxRegs.GPAMUX.bit.PWM6_GPIOA5=1;
+	 
+	 GpioMuxRegs.GPAMUX.bit.PWM1_GPIOA0=0;
 
      EDIS;
 
